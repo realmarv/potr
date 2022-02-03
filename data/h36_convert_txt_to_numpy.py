@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
   for d in data_dirs:
     dirs = [os.path.join(d, x) for x in os.listdir(d)]
-    dir_path = d.split('/')[-3:]
+    dir_path = d.split('/')[-1:]
 
     out_path = os.path.join(args.output_path, '/'.join(dir_path))
     os.makedirs(out_path, exist_ok=True)
