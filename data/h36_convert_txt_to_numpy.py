@@ -41,7 +41,7 @@ if __name__ == '__main__':
                 for x in os.listdir(args.data_path)]
 
   for d in data_dirs:
-    dirs = [os.path.join(d, x) for x in os.listdir(d)]
+    dirs = [os.path.join(d, x) for x in os.listdir(d) if x.endswith('.txt')]
     dir_path = d.split('/')[-1:]
 
     out_path = os.path.join(args.output_path, '/'.join(dir_path))
