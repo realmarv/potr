@@ -1,17 +1,17 @@
 [
-	"directions",
-	"discussion",
+	"walking",
 	"eating",
+	"smoking",
+	"discussion",
+	"directions",
 	"greeting",
 	"phoning",
 	"posing",
 	"purchases",
 	"sitting",
 	"sittingdown",
-	"smoking",
 	"takingphoto",
 	"waiting",
-	"walking",
 	"walkingdog",
 	"walkingtogether"
 ]
